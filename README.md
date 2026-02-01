@@ -1,5 +1,4 @@
 # Azure Secure VM Lab
-
 Security-first Azure lab aligned with AZ-104 fundamentals.
 
 ## Purpose
@@ -21,3 +20,7 @@ It is intentionally built in stages, with a focus on **least privilege**, **audi
 
 ## Safety
 No secrets, credentials, private keys, or environment files are stored in this repository.
+
+## Engineering Principles
+This lab is developed using a CLI-first workflow with deliberate staging, explicit authentication, and cost-aware design.
+The focus is on traceability, least privilege, and security-relevant defaults rather than rapid resource creation.
