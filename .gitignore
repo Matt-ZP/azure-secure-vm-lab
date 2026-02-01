@@ -1,0 +1,16 @@
+# Secrets / env
+.env
+*.env
+
+# SSH keys
+*.pem
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Azure local state / caches
+.azure/
+
+# OS
+.DS_Store
