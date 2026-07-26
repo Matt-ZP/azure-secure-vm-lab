@@ -2,26 +2,22 @@
 
 ## Overview
 
-The Azure Secure VM Lab is a portfolio project demonstrating the deployment of secure cloud infrastructure on Microsoft Azure using Infrastructure as Code (IaC).
+The Azure Secure VM Lab is a portfolio project demonstrating the deployment of a security-focused Azure environment using Infrastructure as Code (IaC).
 
-The project provisions a secure Ubuntu virtual machine, virtual network, network security group and supporting Azure resources using Bicep. Deployment, validation and cleanup are automated through PowerShell scripts to provide a repeatable deployment workflow.
+The project provisions an Ubuntu virtual machine, virtual network, management subnet, Network Security Group and supporting Azure resources through Bicep. PowerShell scripts automate deployment, validation and cleanup to provide a consistent deployment lifecycle.
 
-The objective of the project is to demonstrate core cloud engineering practices, including Infrastructure as Code, secure-by-default infrastructure, automation, validation and technical documentation within a small, reproducible Azure environment.
+## Key Features
 
----
-
-## Features
-
-- Deploys Azure infrastructure using Bicep
+- Infrastructure as Code using Bicep
 - Ubuntu Linux virtual machine
-- Virtual Network and management subnet
-- Network Security Group with secure-by-default rules
+- Virtual Network with management subnet
+- Network Security Group restricting inbound SSH access
 - SSH key authentication
-- Restricted SSH access from an authorised public IP
-- Automated deployment, validation and cleanup
-- Resource tagging
-- Reproducible Infrastructure as Code deployment
-- Comprehensive project documentation
+- PowerShell deployment, validation and cleanup automation
+- Consistent resource naming and tagging
+- Validation checklist
+- Cost-aware deployment lifecycle
+- Comprehensive technical documentation
 
 ---
 
@@ -144,7 +140,7 @@ Actual costs will vary depending on region, VM size and deployment duration.
 
 Supporting screenshots captured during development and validation are stored under:
 
-![Images](docs/images/v1.0.0/)
+[Images](docs/images/v1.0.0/)
 
 Representative screenshots are referenced throughout the documentation where they provide supporting evidence. Additional screenshots are retained as an archive of the implementation, deployment, validation, troubleshooting, cleanup and cost verification process.
 

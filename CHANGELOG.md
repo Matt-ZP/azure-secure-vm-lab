@@ -6,6 +6,13 @@ The format is based on *Keep a Changelog*, and this project follows Semantic Ver
 
 ---
 
+## [1.0.1] - 2026-07-25
+
+### Fixed
+
+- Corrected a broken documentation link.
+- Refined README wording to reduce repetition and improve readability.
+
 ## [1.0.0] - 2026-07-23
 
 ### Added
